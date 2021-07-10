@@ -8,7 +8,6 @@ const authMiddleware = require('./middleware/auth');
 router.post('/register', userController.create);
 router.post('/login', userController.login);
 router.get('/profile', authMiddleware, userController.profile);
-router.post('/logout', authMiddleware, userController.logout);
 
 router.get('/products', authMiddleware, productController.getProducts);
 router.get('/products/:id', authMiddleware, productController.getProductById);
