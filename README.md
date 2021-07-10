@@ -13,7 +13,7 @@ If you like to clone the repo and install dependencies using npm i. The .env fil
 
 Then, to run the development server in the server folder:
 
-  npm run dev
+&emsp;npm run dev
 
 # Tech Stack
 
