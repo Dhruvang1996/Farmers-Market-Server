@@ -17,8 +17,6 @@ Then, to run the development server in the server folder:
 
 # Tech Stack
 
-Styling: CSS
-
 Server: Express Js
 
 Database: MongoDB and Mongoose ODM
